@@ -1,0 +1,5 @@
+<config>
+    <type name="Magento\Quote\Model\Quote">
+        <plugin name="collect_totals" type="Subscription\Subscription\Plugin\Quote\GetItemsCollection" sortOrder="1" />
+    </type>
+</config>
